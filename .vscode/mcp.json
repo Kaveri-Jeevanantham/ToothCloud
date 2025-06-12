@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "specifai-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@presidio-dev/specifai-mcp-server@latest"
+      ]
+    },
+    "mcp-atlassian": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.atlassian.com/v1/sse"
+      ], 
+      "type": "remote"
+    }
+  }
+}
