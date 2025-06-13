@@ -80,7 +80,7 @@ const BookingSection: React.FC = () => {
     }
 
     // Phone validation
-    const phoneRegex = /^[\d\s\-\(\)\+]+$/;
+    const phoneRegex = /^[\d\s\-()]+$/;
     if (formData.phone && !phoneRegex.test(formData.phone)) {
       newErrors.push('Please enter a valid phone number');
     }

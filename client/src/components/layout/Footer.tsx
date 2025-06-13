@@ -16,16 +16,40 @@ const Footer: React.FC = () => {
               Your trusted dental care partner, providing comprehensive oral health services with modern technology and compassionate care.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a 
+                href="https://facebook.com/toothcloud" 
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="Follow ToothCloud on Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a 
+                href="https://twitter.com/toothcloud" 
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="Follow ToothCloud on Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a 
+                href="https://instagram.com/toothcloud" 
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="Follow ToothCloud on Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a 
+                href="https://linkedin.com/company/toothcloud" 
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="Follow ToothCloud on LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin size={24} />
               </a>
             </div>
@@ -74,12 +98,12 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/privacy" className="text-gray-300 hover:text-white transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="/terms" className="text-gray-300 hover:text-white transition-colors">
                   Terms of Service
                 </a>
               </li>

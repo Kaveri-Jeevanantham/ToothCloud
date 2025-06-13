@@ -8,13 +8,28 @@
         "@presidio-dev/specifai-mcp-server@latest"
       ]
     },
-    "mcp-atlassian": {
+    "atlassian": {
       "command": "npx",
       "args": [
         "mcp-remote",
         "https://mcp.atlassian.com/v1/sse"
-      ], 
-      "type": "remote"
+      ],
+"transport": "sse",
+    },
+    "atlassian-mcp": {
+       "url": "https://mcp.atlassian.com/v1/sse",
+       "transport": "sse",
+       "command": "mcp-atlassian",
+       "args": [
+           "--jira-url", "https://your-company.atlassian.net",
+           "--jira-username", "your.email@company.com",
+           "--jira-token", "your_api_token",
+           "--confluence-url", "https://your-company.atlassian.net/wiki",
+           "--confluence-username", "your.email@company.com",
+           "--confluence-token", "your_api_token"
+        ],
+      "env": {},
+      "disabled": false
     }
   }
 }
