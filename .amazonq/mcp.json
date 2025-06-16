@@ -1,3 +1,20 @@
 {
-  "mcpServers": {}
+  "mcpServers": {
+    "atlassian": {
+      "command": "npx",
+      "timeout": 60000,
+      "args": [
+        "mcp-remote",
+        "https://mcp.atlassian.com/v1/sse"
+      ]
+    },
+    "specifai": {
+      "command": "npx",
+      "timeout": 60000,
+      "args": [
+        "--yes",
+        "@presidio-dev/specifai-mcp-server@latest"
+      ]
+    }
+  }
 }
