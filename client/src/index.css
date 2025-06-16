@@ -35,9 +35,3 @@ img {
   margin: 0 auto;
   padding: 0 1rem;
 }
-
-/* Critical path CSS for above-the-fold content */
-.hero-section {
-  min-height: 60vh;
-  background: linear-gradient(135deg, #eff6ff 0%, #f0fdfa 100%);
-}

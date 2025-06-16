@@ -14,7 +14,7 @@
         "mcp-remote",
         "https://mcp.atlassian.com/v1/sse"
       ],
-"transport": "sse",
+      "transport": "sse",
     },
     "atlassian-mcp": {
        "url": "https://mcp.atlassian.com/v1/sse",
